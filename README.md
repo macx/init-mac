@@ -55,3 +55,9 @@ Now, let's use `subl` as a command to start it from the command line:
 $ mkdir ~/bin
 $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 ```
+
+## Build tools
+
+```sh
+$ npm install -g babel     n# Babel JavaScript Compiler
+```
