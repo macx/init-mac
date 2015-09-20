@@ -59,5 +59,5 @@ $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/s
 ## Build tools
 
 ```sh
-$ npm install -g babel     n# Babel JavaScript Compiler
+$ npm install -g babel     # Babel JavaScript Compiler
 ```
