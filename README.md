@@ -56,8 +56,9 @@ $ mkdir ~/bin
 $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 ```
 
-## Build tools
+## Install Build tools
 
 ```sh
 $ npm install -g babel     # Babel JavaScript Compiler
+$ gem install scss_lint    # Sass-Linter
 ```
