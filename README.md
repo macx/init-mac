@@ -43,6 +43,26 @@ $ git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && sour
 $ source bootstrap.sh
 ```
 
+### Development with Node.js
+
+I highly recommend using [Node.js](https://nodejs.org/en/) and the Node Package Manager (NPM) in your projects. To do so, install Node as a [package](https://nodejs.org/en/download/) or using Homebrew:
+
+```sh
+$ brew update && brew doctor         # update Homebrew Catalogue
+$ export PATH="/usr/local/bin:$PATH" # add Homebrew location to PATH
+$ brew install node                  # install Node and NPN
+$ npm install -g npm-check-updates   # check updates for your installed packages
+```
+
+### Install Build tools
+
+Some of the packages are using Ruby, which is pre-installed on your mac. To update Ruby to a newer version, follow [these instructions[(http://code.tutsplus.com/tutorials/how-to-install-ruby-on-a-mac--net-21664).
+
+```sh
+$ npm install -g babel     # Babel JavaScript Compiler
+$ gem install scss_lint    # Sass-Linter
+```
+
 ## Editors
 
 ### Sublime Text
@@ -56,9 +76,3 @@ $ mkdir ~/bin
 $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 ```
 
-## Install Build tools
-
-```sh
-$ npm install -g babel     # Babel JavaScript Compiler
-$ gem install scss_lint    # Sass-Linter
-```
