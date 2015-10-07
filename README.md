@@ -76,3 +76,4 @@ $ mkdir ~/bin
 $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 ```
 
+To preview MarkDown files, I'm using [Marked 2](http://marked2app.com/). To run it from Sublime Text, install the [Bonus Pack](https://github.com/kotfu/marked-bonus-pack).
