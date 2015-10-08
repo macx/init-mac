@@ -54,6 +54,17 @@ $ brew install node                  # install Node and NPN
 $ npm install -g npm-check-updates   # check updates for your installed packages
 ```
 
+Just in case you need it later: How to update your node version:
+
+```sh
+$ node -v                  # check version number before
+$ sudo npm cache clean -f  # clear node cache
+$ sudo npm install -g n    # install node versin manager
+$ sudo n stable            # use stable versions
+$ sudo n 4.0.0             # use 4.0.0, if you want to specify a version
+$ node -v                  # check version number after
+```
+
 ### Install Build tools
 
 Some of the packages are using Ruby, which is pre-installed on your mac. To update Ruby to a newer version, follow [these instructions[(http://code.tutsplus.com/tutorials/how-to-install-ruby-on-a-mac--net-21664).
