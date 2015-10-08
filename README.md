@@ -59,8 +59,9 @@ $ npm install -g npm-check-updates   # check updates for your installed packages
 Some of the packages are using Ruby, which is pre-installed on your mac. To update Ruby to a newer version, follow [these instructions[(http://code.tutsplus.com/tutorials/how-to-install-ruby-on-a-mac--net-21664).
 
 ```sh
-$ npm install -g babel     # Babel JavaScript Compiler
-$ gem install scss_lint    # Sass-Linter
+$ npm install -g babel        # Babel JavaScript Compiler
+$ npm install -g node-sass    # libsass binding for Sass-Compiler written in C
+$ gem install -g scss_lint    # Sass-Linter
 ```
 
 ## Editors
