@@ -43,6 +43,12 @@ $ git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && sour
 $ source bootstrap.sh
 ```
 
+Other usefull stuff, I'm using:
+
+```sh
+$ npm install -g trash  # rm -rf but with use of OS X Trash
+```
+
 ### Development with Node.js
 
 I highly recommend using [Node.js](https://nodejs.org/en/) and the Node Package Manager (NPM) in your projects. To do so, install Node as a [package](https://nodejs.org/en/download/) or using Homebrew:
