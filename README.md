@@ -5,6 +5,8 @@ It's hard to remember which tools you have installed on the other machine to dev
 
 First of install, be sure to install [Xcode](https://itunes.apple.com/de/app/xcode/id497799835?mt=12) from Mac AppStore, to get [git](https://git-scm.com/). Start it once to accept the terms of use.
 
+If you are using OS 10.11 (El Capitan) or higher, you need to [disable the System Integrity Protection](http://www.macworld.com/article/2986118/security/how-to-modify-system-integrity-protection-in-el-capitan.html) (SIP). This is only recommended, if you are [really sure, what you are doing](https://en.wikipedia.org/wiki/System_Integrity_Protection).
+
 ## Installation
 
 ```sh
