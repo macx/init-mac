@@ -84,6 +84,16 @@ $ npm install -g node-sass    # libsass binding for Sass-Compiler written in C
 $ gem install -g scss_lint    # Sass-Linter
 ```
 
+#### Working with Heroku
+
+If you're using Heroku, install the [Toolbelt](https://toolbelt.heroku.com/) first. Then, check the version, authentificate yourself and install the [plugins](https://github.com/heroku/heroku-repo):
+
+```sh
+$ heroku --version
+$ heroku login
+$ heroku plugins:install https://github.com/heroku/heroku-repo.git
+```
+
 ## Editors
 
 ### Sublime Text
