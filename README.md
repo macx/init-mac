@@ -16,6 +16,9 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 # Android Debug Bridge (adb) to
 # communicate with Android Devices
 $ brew install android-platform-tools
+
+# Command Line Tools from Xcode
+$ xcode-select --install
 ```
 
 ### git
