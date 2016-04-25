@@ -111,3 +111,10 @@ $ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/s
 ```
 
 To preview MarkDown files, I'm using [Marked 2](http://marked2app.com/). To run it from Sublime Text, install the [Bonus Pack](https://github.com/kotfu/marked-bonus-pack).
+
+#### 3rd party support
+
+```sh
+// install node package for optimize code
+$ npm install -g clean-css uglifycss js-beautify html-minifier uglify-js minjson svgo
+```
