@@ -63,6 +63,7 @@ $ brew update && brew doctor         # update Homebrew Catalogue
 $ export PATH="/usr/local/bin:$PATH" # add Homebrew location to PATH
 $ brew install node                  # install Node and NPN
 $ npm install -g npm-check-updates   # check updates for your installed packages
+$ brew install graphicsmagick        # Used to render repsonisve images from tasks
 ```
 
 Just in case you need it later: How to update your node version:
