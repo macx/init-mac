@@ -85,7 +85,7 @@ Some of the packages are using Ruby, which is pre-installed on your mac. To upda
 $ npm install -g grunt-cli    # Install grunt command line tool
 $ npm install -g babel        # Babel JavaScript Compiler
 $ npm install -g node-sass    # libsass binding for Sass-Compiler written in C
-$ gem install -g scss_lint    # Sass-Linter
+$ gem update --system && gem install scss_lint # Sass-Linter
 ```
 
 #### Working with Heroku
