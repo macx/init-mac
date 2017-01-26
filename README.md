@@ -54,7 +54,7 @@ Other usefull stuff, I'm using:
 $ npm install -g trash  # rm -rf but with use of OS X Trash
 ```
 
-### Development with Node.js
+### Development with Node.js and Redis
 
 I highly recommend using [Node.js](https://nodejs.org/en/) and the Node Package Manager (NPM) in your projects. To do so, install Node as a [package](https://nodejs.org/en/download/) or using Homebrew:
 
@@ -64,6 +64,7 @@ $ export PATH="/usr/local/bin:$PATH" # add Homebrew location to PATH
 $ brew install node                  # install Node and NPN
 $ npm install -g npm-check-updates   # check updates for your installed packages
 $ brew install graphicsmagick        # Used to render repsonisve images from tasks
+$ brew install redis                 # Install Redis server
 ```
 
 Just in case you need it later: How to update your node version:
