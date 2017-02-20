@@ -89,6 +89,15 @@ $ npm install -g node-sass    # libsass binding for Sass-Compiler written in C
 $ gem update --system && gem install scss_lint # Sass-Linter
 ```
 
+### Install mongoDB
+
+
+```sh
+$ brew install mongodb
+$ echo 'alias mongod="mongod --config /usr/local/etc/mongod.conf --fork"' > ~/.bash_profile
+$ source ~/.bash_profile
+```
+
 #### Working with Heroku
 
 If you're using Heroku, install the [Toolbelt](https://toolbelt.heroku.com/) first. Then, check the version, authentificate yourself and install the [plugins](https://github.com/heroku/heroku-repo):
