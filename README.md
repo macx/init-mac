@@ -94,7 +94,7 @@ $ gem update --system && gem install scss_lint # Sass-Linter
 
 ```sh
 $ brew install mongodb
-$ echo 'alias mongod="mongod --config /usr/local/etc/mongod.conf --fork"' > ~/.bash_profile
+$ echo 'alias mongod="mongod --config /usr/local/etc/mongod.conf --fork"' >> ~/.bash_profile
 $ source ~/.bash_profile
 ```
 
